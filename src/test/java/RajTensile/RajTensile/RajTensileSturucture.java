@@ -16,7 +16,7 @@ public class RajTensileSturucture {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Asus\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromeDriver.exe");
 		driver.get("https://rajtensilestructure.com/");
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 	@Test
 	void homepage() throws InterruptedException {
